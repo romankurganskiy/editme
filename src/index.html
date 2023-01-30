@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tzeezotje</title>
+    <link href="/css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <section class="top-section">
+        <div class="content-container">
+            <header class="header">
+                <a href="#">
+                    <img
+                        class="logo"
+                        src="/img/icon.svg"
+                        alt="Tzeezotje"
+                    >
+                </a>
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li>
+                            <a href="#">À la carte</a>
+                        </li>
+                        <li>
+                            <a href="#">diWijnkaart</a>
+                        </li>
+                        <li>
+                            <a href="#">Lunchmenu</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>               
+                </nav>
+                <div class="nav-overlay"></div>
+                <div class="modal-overlay"></div>
+                <nav class="header__menu-mobile">
+                    <ul class="header__list">
+                        <li>
+                            <a href="#">À la carte</a>
+                        </li>
+                        <li>
+                            <a href="#">diWijnkaart</a>
+                        </li>
+                        <li>
+                            <a href="#">Lunchmenu</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul> 
+                    <a
+                        class="phone__menu-mobile"
+                        href="tel:+3292825725" 
+                    >
+                        <img class="phone__logo" src="/img/phone.svg">
+                        <span class="phone__number">+32 9 282 57 25</span>
+                    </a>
+                </nav>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <a
+                    class="phone"
+                    href="tel:+3292825725" 
+                >
+                    <img class="phone__logo" src="/img/phone.svg">
+                    <span class="phone__number">+32 9 282 57 25</span>
+                </a>
+            </header>
+            <div class="schedule">OPEN EVERYDAY 6AM - 9PM</div>
+            <h1>A bad day with lunch is better than a good day without it.</h1>
+            <div class="top-section__bottom-container">
+                <button class="button-primary reserve-button">Reserve a table</button>
+                <div class="social-media">
+                    <a href="#" class="social-media__button">Fb</a>
+                    <a href="#" class="social-media__button">Ig</a>
+                    <a href="#" class="social-media__button">Tw</a>
+                    <a href="#" class="social-media__button">Yt</a>
+                </div>
+            </div>
+            <div class="reserve-modal">
+                <form class="modal" id="reserve-form">
+                    <input type="text" name="date" placeholder="Data de reserva" id='date'>
+                    <input type="number" name="number" placeholder="Número de persoas" id='person'>
+                    <textarea rows="4" cols="50" name="coment" placeholder="Comentarios ao pedido" class="message" id='text'></textarea>
+                    <button class="submit-reserve">Reserve</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="menu-section">
+        <div class="content-container menu-section__container">
+            <div class="menu">
+                <div class="menu__dayli-list">
+                    <h2>Woensdag 12/01</h2>
+                    <div class="dish-list">
+                        <div class="dish">Salade met Serrano</div>
+                        <div class="separator-circle"></div>
+                        <div class="separator-circle"></div>
+                        <div class="separator-circle"></div>
+                        <div class="dish">Steak Tartaar</div>
+                    </div>
+                </div>
+                <div class="menu__dayli-list">
+                    <h2>Donderdag 13/01</h2>
+                    <div class="dish-list">
+                        <div class="dish">Toast Roquefort</div>
+                        <div class="separator-circle"></div>
+                        <div class="separator-circle"></div>
+                        <div class="separator-circle"></div>
+                        <div class="dish">Penne met Kip en Prei</div>
+                    </div>
+                </div>
+                <div class="menu__dayli-list">
+                    <h2>Vrijdag 14/01</h2>
+                    <div class="dish-list">
+                        <div class="dish">Verrassing van de Chef</div>
+                        <div class="separator-circle"></div>
+                        <div class="separator-circle"></div>
+                        <div class="separator-circle"></div>
+                        <div class="dish">Penne met Kip en Prei</div>
+                    </div>
+                </div>
+                <div class="menu__dayli-list">
+                    <h2>Vrijdag 15/01</h2>
+                    <div class="dish-list">
+                        <div class="dish">Verrassing van de Chef</div>
+                        <div class="separator-circle"></div>
+                        <div class="separator-circle"></div>
+                        <div class="separator-circle"></div>
+                        <div class="dish">Penne met Kip en Prei</div>
+                    </div>
+                </div>
+                <div class="menu__dayli-list">
+                    <h2>Vrijdag 16/01</h2>
+                    <div class="dish-list">
+                        <div class="dish">Verrassing van de Chef</div>
+                        <div class="separator-circle"></div>
+                        <div class="separator-circle"></div>
+                        <div class="separator-circle"></div>
+                        <div class="dish">Penne met Kip en Prei</div>
+                    </div>
+                </div>
+            </div>
+            <div class="munu-section__image-container">
+                <div class="square"></div>
+                <div class="menu-section__left-image"></div>
+                <div class="menu-section__right-image"></div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews-section">
+        <div class="content-container">
+            <!-- Slider main container -->
+            <div class="swiper review-slider">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img class="reviews-section__icon" src="/img/commas.svg">
+                        <h3>Goede service, lekker eten, toffe ambiance</h3>
+                        <p class="reviews-content">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+                            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
+                            sed diam voluptua. At vero eos et accusam et justo duo  dolores et ea rebum. 
+                            Stet clita kasd gubergren.
+                        </p>
+                        <div class="swiper-autor">ALAIN HEYNDRICKX</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="reviews-section__icon" src="/img/commas.svg">
+                        <h3>Zeer smakelijke biefstuk</h3>
+                        <p class="reviews-content">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+                            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
+                            sed diam voluptua. At vero eos et accusam et justo duo  dolores et ea rebum. 
+                            Stet clita kasd gubergren.
+                        </p>
+                        <div class="swiper-autor">ARJEN ROBBEN</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="reviews-section__icon" src="/img/commas.svg">
+                        <h3>Geweldige plek, raad ik aan!</h3>
+                        <p class="reviews-content">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+                            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
+                            sed diam voluptua. At vero eos et accusam et justo duo  dolores et ea rebum. 
+                            Stet clita kasd gubergren.
+                        </p>
+                        <div class="swiper-autor">DOUTZEN KROEZ</div>
+                    </div>
+                </div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>      
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
